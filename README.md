@@ -20,6 +20,15 @@ balik hasil kosong. Repo ini pakai endpoint baru yang terbukti jalan:
 - Python 3 + `playwright` (chromium)
 - VPS/US region yang gak di-block X
 
+## Install
+
+```bash
+git clone https://github.com/cruzlxyz/Scraper
+cd Scraper
+pip install -r requirements.txt
+playwright install chromium
+```
+
 ## Cara pakai
 
 Hitung split foto vs video:
@@ -66,7 +75,3 @@ scraper/
 └── scripts/
     └── x_media_dl.py         # scraper & downloader utama
 ```
-
-## Lisensi
-
-MIT
